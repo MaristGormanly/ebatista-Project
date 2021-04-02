@@ -1,0 +1,22 @@
+{
+  "name": "oregontrail",
+  "version": "1.0.0",
+  "description": "package",
+  "main": "oregonTrail.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaristGormanly/ebatista-Project.git"
+  },
+  "author": "Emmanuel Batista",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaristGormanly/ebatista-Project/issues"
+  },
+  "homepage": "https://github.com/MaristGormanly/ebatista-Project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
