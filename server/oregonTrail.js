@@ -3,6 +3,10 @@ const app = express();
 app.use(express.static('client/public'));
 const port = 1337
 
+app.get('/music.mp3', function (req, res) {
+  res.sendFile('music.mp3', {root: './client/public/music'})
+})
+
 app.get('/global.css', function (req, res) {
   res.sendFile('global.css', {root: './client/public/css'})
 })
