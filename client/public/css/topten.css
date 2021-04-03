@@ -17,16 +17,18 @@ h1 {
 p1 {
 	color: white;
 	font-size: 30px;
-	position: relative;
-	left: -300px;
+	float: left;
+	left: 300px;
 	text-decoration: underline;
 }
 
 p2 {
 	color: white;
 	font-size: 30px;
-	position: relative;
+	position:relative;
+	float: center;
 	left: 0px;
+	top: -30px;
 	text-decoration: underline;
 }
 
@@ -34,14 +36,26 @@ p3 {
 	color: white;
 	font-size: 30px;
 	position: relative;
-	left: 300px;
+	float: right;
+	left: -100px;
+	top:-70px;
 	text-decoration: underline;
 }
 
-p {
-	text-align: left;
+td {
+	text-align: center;
 	font-size: 30px;
 	line-height: 200%;
 }
+
+table {
+	width: 85%;
+}
+
+#num {
+	float:left;
+}
+
+
 
 

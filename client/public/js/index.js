@@ -20,7 +20,5 @@ async function fadein() {
 }
 
 window.onload = async function() {
-var x = document.getElementById("music"); 
-x.play()
 fadeout();  
 }

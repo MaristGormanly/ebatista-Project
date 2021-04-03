@@ -3,6 +3,22 @@ const app = express();
 app.use(express.static('client/public'));
 const port = 1337
 
+app.get('/fonts/press-start-2p-v9-latin-regular.eot', function (req, res) {
+  res.sendFile('press-start-2p-v9-latin-regular.eot', {root: './client/public/fonts'})
+})
+
+app.get('/fonts/press-start-2p-v9-latin-regular.woff2', function (req, res) {
+  res.sendFile('press-start-2p-v9-latin-regular.woff2', {root: './client/public/fonts'})
+})
+
+app.get('/fonts/press-start-2p-v9-latin-regular.woff', function (req, res) {
+  res.sendFile('press-start-2p-v9-latin-regular.woff', {root: './client/public/fonts'})
+})
+
+app.get('/fonts/press-start-2p-v9-latin-regular.ttf', function (req, res) {
+  res.sendFile('press-start-2p-v9-latin-regular.ttf', {root: './client/public/fonts'})
+})
+
 app.get('/music.mp3', function (req, res) {
   res.sendFile('music.mp3', {root: './client/public/music'})
 })

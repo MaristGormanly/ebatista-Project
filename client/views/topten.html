@@ -3,26 +3,81 @@
 	<head> <img src = "images/titleimage.jpg" class="center"> </head>
 	<body>
 		<h1> Top Ten <h1>
+		<audio id="music">
+			<source src="music.mp3" type ="audio/mpeg">
+		</audio>
 		<script src="global.js"> </script>
 		<link rel="stylesheet" href="global.css">
-		<script src="topten.js"> </script>
+		
 		<link rel="stylesheet" href="topten.css">
-		<div class = container>
-			<p1> Name </p1>
-			<p2> Score </p2>
-			<p3> Date </p3>
-		</div>
-		<br>
-		<p> 1) </p>
-		<p> 2) </p>
-		<p> 3) </p>
-		<p> 4) </p>
-		<p> 5) </p>
-		<p> 6) </p>
-		<p> 7) </p>
-		<p> 8) </p>
-		<p> 9) </p>
-		<p> 10) </p>
-		<div id = "return"> <a href="http://localhost:1337/mainmenu" style="text-decoration: none">Return to Main Menu </a></div>
+		
+		<table>
+			<tr>
+				<th> Name </th>
+				<th> Score </th>
+				<th> Date </th>
+			</tr>
+			<tr>
+				<td> <span id="num">1)</span>&nbsp <span id="name0">Josh </span> </td>
+				<td> <span id="points0">123 </span> </td>
+				<td> <span id="date0">2/2/12 </span> </td>
+			</tr>
+			<tr>
+				<td> <span id="num">2)</span> &nbsp <span id="name1">Josh </span> </td>
+				<td> <span id="points1">123 </span> </td>
+				<td> <span id="date1">2/2/12 </span> </td>
+			</tr>
+			<tr>
+				<td> <span id="num">3)</span> &nbsp <span id="name2">Josh </span> </td>
+				<td> <span id="points2">123 </span> </td>
+				<td> <span id="date2">2/2/12 </span> </td>
+			</tr>
+			<tr>
+				<td> <span id="num">4)</span> &nbsp <span id="name3">Josh </span> </td>
+				<td> <span id="points3">123 </span> </td>
+				<td> <span id="date3">2/2/12 </span> </td>
+			</tr>
+			<tr>
+				<td> <span id="num">5)</span> &nbsp <span id="name4">Josh </span> </td>
+				<td> <span id="points4">123 </span> </td>
+				<td> <span id="date4">2/2/12 </span> </td>
+			</tr>
+			<tr>
+				<td> <span id="num">6)</span> &nbsp <span id="name5">Josh </span> </td>
+				<td> <span id="points5">123 </span> </td>
+				<td> <span id="date5">2/2/12 </span> </td>
+			</tr>
+			<tr>
+				<td> <span id="num">7)</span> &nbsp <span id="name6">Josh </span> </td>
+				<td> <span id="points6">123 </span> </td>
+				<td> <span id="date6">2/2/12 </span> </td>
+			</tr>
+			<tr>
+				<td> <span id="num">8)</span> &nbsp <span id="name7">Josh </span> </td>
+				<td> <span id="points7">123 </span> </td>
+				<td> <span id="date7">2/2/12 </span> </td>
+			</tr>
+			<tr>
+				<td> <span id="num">9)</span> &nbsp <span id="name8">Josh </span> </td>
+				<td> <span id="points8">123 </span> </td>
+				<td> <span id="date8">2/2/12 </span> </td>
+			</tr>
+			<tr>
+				<td> <span id="num">10)</span> &nbsp <span id="name9">Josh </span> </td>
+				<td> <span id="points9">123 </span> </td>
+				<td> <span id="date9">2/2/12 </span> </td>
+			</tr>
+			
+		</table>
+		
+		<script src="topten.js"> </script>
+				
+			<br>
+				
+	
+		
+		
+		
+		<div id = "return"> <a href="http://localhost:1337/mainmenu" style="text-decoration: none">Return to Main Menu </a></div> <span id = "mute"> Press M to Unmute </span>
 	</body>
 </html>
