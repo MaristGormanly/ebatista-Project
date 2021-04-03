@@ -1,0 +1,17 @@
+img {
+	display: block;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	color: white;
+	font-size: 30px;
+	text-align: left;
+	line-height: 200%
+}
+
+.container {
+	padding-left: 600px;
+}

@@ -1,0 +1,35 @@
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+body {
+	background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+#return {
+	color: white;
+	font-size: 30px;
+	position: relative;
+	bottom: 0px;
+	text-align: left;
+}

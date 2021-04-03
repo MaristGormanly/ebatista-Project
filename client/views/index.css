@@ -1,0 +1,35 @@
+body {
+  background-image: url("images/indexbackground.jpg");
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+
+#fade {
+  color: white;
+  opacity: 1;
+  transition: 1s opacity;
+  text-align: center;
+  font-size:32px;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}

@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+}
+
+img {
+	display: block;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p1 {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	left: 650px;
+	text-decoration: underline;
+}
+
+p2 {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	left: 900px;
+	text-decoration: underline;
+}
+
+p3 {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	left: 1150px;
+	text-decoration: underline;
+}
+
+p {
+	text-align: left;
+	font-size: 30px;
+	line-height: 200%;
+}
+
+
