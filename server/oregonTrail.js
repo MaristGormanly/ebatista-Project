@@ -4,11 +4,11 @@ app.use(express.static('client/public'));
 const port = 1337
 
 app.get('/global.css', function (req, res) {
-  res.sendFile('global.css', {root: './client/views'})
+  res.sendFile('global.css', {root: './client/public/css'})
 })
 
 app.get('/global.js', function (req, res) {
-  res.sendFile('global.js', {root: './client/views'})
+  res.sendFile('global.js', {root: './client/public/js'})
 })
 
 app.get('/', function (req, res) {
@@ -16,11 +16,11 @@ app.get('/', function (req, res) {
 })
 
 app.get('/index.js', function (req, res) {
-  res.sendFile('index.js', {root: './client/views'})
+  res.sendFile('index.js', {root: './client/public/js'})
 })
 
 app.get('/index.css', function (req, res) {
-  res.sendFile('index.css', {root: './client/views'})
+  res.sendFile('index.css', {root: './client/public/css'})
 })
 
 app.get('/mainmenu', function (req, res) {
@@ -28,11 +28,11 @@ app.get('/mainmenu', function (req, res) {
 })
 
 app.get('/mainmenu.js', function (req, res) {
-  res.sendFile('mainmenu.js', {root: './client/views'})
+  res.sendFile('mainmenu.js', {root: './client/public/js'})
 })
 
 app.get('/mainmenu.css', function (req, res) {
-  res.sendFile('mainmenu.css', {root: './client/views'})
+  res.sendFile('mainmenu.css', {root: './client/public/css'})
 })
 
 app.get('/topten', function (req, res) {
@@ -40,11 +40,11 @@ app.get('/topten', function (req, res) {
 })
 
 app.get('/topten.js', function (req, res) {
-  res.sendFile('topten.js', {root: './client/views'})
+  res.sendFile('topten.js', {root: './client/public/js'})
 })
 
 app.get('/topten.css', function (req, res) {
-  res.sendFile('topten.css', {root: './client/views'})
+  res.sendFile('topten.css', {root: './client/public/css'})
 })
 
 app.get('/setup', function (req, res) {
@@ -52,11 +52,11 @@ app.get('/setup', function (req, res) {
 })
 
 app.get('/setup.js', function (req, res) {
-  res.sendFile('setup.js', {root: './client/views'})
+  res.sendFile('setup.js', {root: './client/public/js'})
 })
 
 app.get('/setup.css', function (req, res) {
-  res.sendFile('setup.css', {root: './client/views'})
+  res.sendFile('setup.css', {root: './client/public/css'})
 })
 
 app.get('/trail', function (req, res) {
@@ -64,11 +64,11 @@ app.get('/trail', function (req, res) {
 })
 
 app.get('/trail.js', function (req, res) {
-  res.sendFile('trail.js', {root: './client/views'})
+  res.sendFile('trail.js', {root: './client/public/js'})
 })
 
 app.get('/trail.css', function (req, res) {
-  res.sendFile('trail.css', {root: './client/views'})
+  res.sendFile('trail.css', {root: './client/public/css'})
 })
 
 

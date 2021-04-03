@@ -33,3 +33,9 @@ h1 {
 	bottom: 0px;
 	text-align: left;
 }
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+	
+}
